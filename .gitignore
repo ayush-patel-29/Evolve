@@ -1,0 +1,17 @@
+echo "# Dependencies" > .gitignore
+echo "node_modules/" >> .gitignore
+echo "# Python" >> .gitignore
+echo "**/__pycache__/" >> .gitignore
+echo "**/*.py[cod]" >> .gitignore
+echo "**/*.so" >> .gitignore
+echo "**/.Python" >> .gitignore
+echo "**/env/" >> .gitignore
+echo "**/.env" >> .gitignore
+echo "**/.venv/" >> .gitignore
+echo "**/venv/" >> .gitignore
+echo "# IDE files" >> .gitignore
+echo ".idea/" >> .gitignore
+echo ".vscode/" >> .gitignore
+echo "# OS files" >> .gitignore
+echo ".DS_Store" >> .gitignore
+echo "Thumbs.db" >> .gitignore
